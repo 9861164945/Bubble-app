@@ -23,3 +23,23 @@ h1{
     border:2px  dotted black;
     border-radius: 15%;
 }
+@media (max-width: 768px) {
+    body {
+        margin-top: 20px; /* Reduce top margin */
+    }
+
+    canvas {
+        width: 100%; /* Full width on mobile */
+        max-width: 100%;
+    }
+
+    button {
+        margin-top: 15px;
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+}
